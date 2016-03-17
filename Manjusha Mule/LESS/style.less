@@ -1,0 +1,153 @@
+@import "variables.less";
+@import "fonts.less";
+@import "mixin.less";
+
+
+body{
+	font-family: 'robotolight';
+}
+ 
+header{
+	font-family: 'robotoregular';
+}
+
+header img{
+	margin-top: 119px;
+    width: 120%;
+}
+
+aside{
+	float: right;
+	margin-top: 25px;
+	ul li{
+		font-weight : bold;
+		list-style-type: none;
+    	border-bottom-style: dashed;
+    	border-bottom-width: 2px;
+    	margin-left: -38px;
+    	margin-top: 12px;
+    	margin-bottom: 18px;
+	}
+	span{
+		background: @gray-color;
+    	display: block;
+    	margin-top: 16px;
+    	padding: 7px;
+    	color:white;
+    	font-weight : bold;
+	}
+}
+
+section h1{
+	color: @red-color;
+}
+
+h3{
+	color: @white-color;
+}
+
+figcaption{
+	text-align : center;
+}
+
+ul li{
+	    list-style-type: none;
+}
+
+
+input[type=search]{
+	border-color: red;
+	width:200px;
+}
+
+#author{
+	color: green;
+}
+#search{
+	color: red;
+	border-color: red;
+}
+.nav-icons{
+	float: right;
+}
+.top-nav{
+	padding: 20px;
+	background: -webkit-linear-gradient(white, gray); /* For Safari 5.1 to 6.0 */
+	
+	.nav-link-style;
+	
+}
+
+.banner-box{
+	    box-shadow: 10px 10px 5px grey;
+	    margin-bottom : 20px;
+	    .banner{
+			background-image : url("Images/banner.png");
+			background-size: 100% 100%;
+		    background-repeat: no-repeat;
+		    height: 300px;
+		}
+}
+.resources{
+	border-radius: 50%;
+	width: 150px;
+    height: 150px;
+	transition : -webkit-filter @transition-time;
+	&:hover{
+		-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    	filter: grayscale(100%);
+	}
+}
+
+
+.bottom{
+	background-color: gray;
+}
+.form-element{
+	vertical-align:baseline;
+}
+.figure-class{
+	text-align:center;
+	padding-bottom: 12px;
+}
+#submit{
+	float: right;
+	background: #3498db;
+  	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+   	border-radius: 12px;
+   	font-size: 15px;
+    width: 97px;
+    height: 35px;
+    color: @white-color;
+    margin-top: 20px;
+}
+
+footer{
+	text-align: center;
+	p{
+		padding:15px;
+	}
+	a{
+		color:#333;
+	}
+}
+
+figure{
+	display: inline-block;
+}
+
+
+
+form { 
+	width: 300px;
+	
+	label{
+    	display: inline-block;
+    	vertical-align: baseline;
+    	width: 50px;
+    	font-weight: normal;
+	}
+
+	.input-style;
+}
+
