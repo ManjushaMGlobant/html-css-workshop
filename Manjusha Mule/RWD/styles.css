@@ -1,0 +1,159 @@
+/*@font-face {
+    font-family: 'robotolight';
+    src: url('roboto-light-webfont.eot');
+    src: url('roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-light-webfont.woff2') format('woff2'),
+         url('roboto-light-webfont.woff') format('woff'),
+         url('roboto-light-webfont.ttf') format('truetype'),
+         url('roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('roboto-regular-webfont.eot');
+    src: url('roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('roboto-regular-webfont.woff2') format('woff2'),
+         url('roboto-regular-webfont.woff') format('woff'),
+         url('roboto-regular-webfont.ttf') format('truetype'),
+         url('roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('icomoon.eot?980vsg');
+    src:    url('icomoon.eot?980vsg#iefix') format('embedded-opentype'),
+        url('icomoon.ttf?980vsg') format('truetype'),
+        url('icomoon.woff?980vsg') format('woff'),
+        url('icomoon.svg?980vsg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+/*[class^="icon-"], [class*=" icon-"] {
+    
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    
+    color: black;
+    font-size: 35px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrows_plus:before {
+    content: "\e900";
+}
+.icon-arrows_question:before {
+    content: "\e901";
+}
+.icon-arrows_right_double-31:before {
+    content: "\e902";
+}
+.icon-arrows_rotate_anti_dashed:before {
+    content: "\e903";
+}
+.icon-arrows_shrink_diagonal1:before {
+    content: "\e904";
+}
+.icon-arrows_sign_right:before {
+    content: "\e905";
+}
+.icon-arrows_slide_right1:before {
+    content: "\e906";
+}
+.icon-arrows_square_left:before {
+    content: "\e907";
+}
+
+*/
+@import url('variables.css');
+@import url('fonts.css');
+header{
+	font-family: 'robotoregular';
+}
+body{
+	font-family: 'robotolight';
+}
+ .top-nav{
+	padding: 20px;
+	 background: -webkit-linear-gradient(white, gray); /* For Safari 5.1 to 6.0 */
+	//background-color: gray;
+}
+aside{
+	float: right;
+}
+
+h1{
+	color: red;
+}
+h3{
+	color: white;
+}
+ul li{
+	    list-style-type: none;
+}
+a{
+	text-decoration: none;
+	color: @link-color;
+	padding: 48px;
+}
+input[type=search]{
+	border-color: red;
+}
+form input{
+	border-radius: 5px;
+}
+#author{
+	color: green;
+}
+#search{
+	color: red;
+	border-color: red;
+}
+.nav-icons{
+	float: right;
+}
+.resources{
+	border-radius: 50%;
+	width: 150px;
+    height: 150px;
+	transition : -webkit-filter 2s;
+}
+.resources:hover{
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.bottom-nav{
+	display: inline-block;
+}
+.bottom{
+	background-color: gray;
+}
+#submit{
+	float: right;
+	background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+   border-radius: 12px;
+   font-size: 15px;
+     width: 97px;
+    height: 35px;
+    color: #ffffff;
+}
+footer{
+	text-align: center;
+}
+figure{
+	display: inline-block;
+}

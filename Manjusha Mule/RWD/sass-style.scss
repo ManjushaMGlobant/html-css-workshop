@@ -1,0 +1,55 @@
+@import 'sass-variable';
+@import 'sass-mixin';
+
+
+aside span{
+	background : $gray-color;
+}
+
+#author{
+	color: $green-color;
+  font-weight:bold;
+}
+#search{
+	color: $red-color;
+	border-color: $red-color;
+}
+
+#submit{
+	float: right;
+	background: #3498db;
+  	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+   	font-size: 15px;
+    width: 97px;
+    height: 35px;
+    color: white;
+    margin-top: 20px;
+
+    @include border-radius(12px);
+}
+
+section h1{
+  font-size : $h1-font-size;
+}
+
+h3{
+  @if $h1-font-size == 32px{
+    font-size : 20px;
+  }
+  else{
+    font-size: 10px;
+  }
+}
+
+aside ul li {
+
+    @for $i from 1 through 6{
+      &.resource-#{$i}:before{
+        
+       content : " " + $i + ". ";
+       
+      }
+    }
+
+  
+}

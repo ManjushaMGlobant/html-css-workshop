@@ -1,0 +1,81 @@
+@media (min-width: 320px) and (max-width: 500px) {
+  section h1 {
+    color: green !important;
+  }
+  p {
+    color: red;
+  }
+  .form-element {
+    width: 50%;
+  }
+  header .box-shadow {
+    background: transparent !important;
+  }
+  header .box-shadow .logo img {
+    margin-top: 0px;
+  }
+  [class^="icon-"],
+  [class*=" icon-"] {
+    display: none;
+  }
+  .container .top-nav ul li {
+    width: 32%;
+  }
+  .container .content {
+    width: 100%;
+  }
+  .container .side-bar {
+    width: 100%;
+  }
+  .container .side-bar aside {
+    float: left;
+  }
+  .container .figure-class figure {
+    width: 100%;
+  }
+  .bottom .bottom-row .bottom-col {
+    width: 100%;
+  }
+  .bottom #submit {
+    float: left;
+    margin-left: 20%;
+  }
+  html body {
+    background: #fff;
+  }
+}
+@media (min-width: 501px) and (max-width: 1000px) {
+  .nav-icons {
+    float: left !important;
+  }
+  .container .top-nav ul li {
+    width: 19%;
+  }
+  .container .content {
+    width: 50%;
+  }
+  .container .side-bar {
+    width: 50%;
+  }
+  .container .side-bar aside {
+    float: right;
+  }
+  html body {
+    background: #fff;
+  }
+  header .box-shadow .logo img {
+    margin-top: 0px;
+  }
+  .form-element {
+    width: 60%;
+  }
+  .bottom #submit {
+    float: left;
+    margin-left: 20%;
+  }
+}
+@media (min-width: 901px) and (max-width: 1200px) {
+  html body {
+    background: #f4f4f4;
+  }
+}

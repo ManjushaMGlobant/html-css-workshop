@@ -1,0 +1,47 @@
+aside span {
+  background: #808080; }
+
+#author {
+  color: #458B00;
+  font-weight: bold; }
+
+#search {
+  color: #ff0000;
+  border-color: #ff0000; }
+
+#submit {
+  float: right;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  font-size: 15px;
+  width: 97px;
+  height: 35px;
+  color: white;
+  margin-top: 20px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px; }
+
+section h1 {
+  font-size: 32px; }
+
+h3 {
+  font-size: 20px; }
+  h3 else {
+    font-size: 10px; }
+
+aside ul li.resource-1:before {
+  content: " 1. "; }
+aside ul li.resource-2:before {
+  content: " 2. "; }
+aside ul li.resource-3:before {
+  content: " 3. "; }
+aside ul li.resource-4:before {
+  content: " 4. "; }
+aside ul li.resource-5:before {
+  content: " 5. "; }
+aside ul li.resource-6:before {
+  content: " 6. "; }
+
+/*# sourceMappingURL=sass-style.css.map */
